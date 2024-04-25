@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(173, 214, 230); 
+    padding: 20px; 
+}
+
+#historialbusqueda {
+    background-color: lightgray;
+    border-radius: 50px;
+    max-width: 300px;
+    max-height: 300px; 
+    overflow-y: auto; 
+    margin-top: 20px;
+    padding: 10px; 
+}
+
+#historialbusqueda h2 {
+    text-align: center;
+}
+
+#historialbusqueda ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+#historialbusqueda li {
+    padding: 5px 0;
+    border-bottom: 1px solid #da2727;
+}
+
+#historialbusqueda img {
+    display: block;
+    margin: 0 auto; 
+}
+
+#historialbusqueda span {
+    display: block; 
+    text-align: center; 
+}

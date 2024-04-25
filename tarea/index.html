@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <div class="container">
+        <h2>pon el nombre del pokemon para saber sus stats</h2>
 
-    <h2>pon el nombre del pokemon para saber sus stats</h2>
+        <input type="text" id="name">
+        <button type="button" id="send">buscar</button>
 
-    <input type="text" id="name">
-    <button type="button" id="send">buscar</button>
+        <div id="informacion-pokemon">
+            <img src="" alt="">
+            <p id="nombre"></p>
+            <p id="id"></p>
+            <p id="tipo"></p>
+        </div>
 
-    <div id="informacion-pokemon">
-        <img src="" alt="">
-        <p id="nombre"></p>
-        <p id="id"></p>
-        <p id="tipo"></p>
+        <div id="historialbusqueda">
+            <h2>Historial de Pokémon consultados:</h2>
+            <ul id="historial"></ul>
+        </div>
+
     </div>
+
 
     <script src="app.js"></script>
 </body>
+
 </html>
